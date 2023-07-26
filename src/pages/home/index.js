@@ -1,10 +1,10 @@
-import React from 'react';
-import Pessoas from './pessoas-index';
-import Lugares from './lugares-index';
-import Sobre from './sobre-index';
-import Contato from './contato-index';
+import React, { useState } from 'react';
+import Slide2 from './slide2-index';
+import Slide3 from './slide3-index';
+import Slide4 from './slide4-index';
+import Slide5 from './slide5-index';
 
-const Home = () => {
+const Home = ({ onLugaresButtonClick, onPessoasButtonClick, onSobreButtonClick, onContatoButtonClick }) => {
   return (
     <div>
         <section class="home-container">
@@ -15,10 +15,10 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        <Pessoas/>
-        <Lugares/>
-        <Sobre/>
-        <Contato/>
+        <Slide2 onPessoasButtonClick={onPessoasButtonClick}/>
+        <Slide3 onLugaresButtonClick={onLugaresButtonClick}/>
+        <Slide4 onSobreButtonClick={onSobreButtonClick}/>
+        <Slide5 onContatoButtonClick={onContatoButtonClick}/>
     </div>
   )
 }

@@ -47,7 +47,7 @@ body{
 }
 .button-home:hover{
   transform: scale(1.1);
-  background-color: rgba(95, 116, 118, 0.632);
+  background-color: rgba(13, 16, 16, 0.183);
 }
 /* home - pessoas*/
 .home-container-2{
@@ -55,6 +55,7 @@ body{
   background-repeat: no-repeat;
   background-position: 0 80%;
   background-size: cover;
+  transition: background-size 0.3s ease;
 }
 /* home - lugares*/
 .home-container-3{
