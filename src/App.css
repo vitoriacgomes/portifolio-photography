@@ -78,3 +78,19 @@ body{
   background-position: bottom;
   background-size: cover;
 }
+/*--------------S O B R E-------------*/
+.sobre{
+  background-color:rgba(95, 116, 118, 0.632);
+}
+.sobre-dv{
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+}
+.title-sobre{
+  font-weight: 400;
+  font-size: 55px;
+  margin-top: 4%;
+  letter-spacing: 10px;
+  margin-bottom: 10%;
+}
