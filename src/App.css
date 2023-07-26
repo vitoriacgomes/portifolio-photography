@@ -7,8 +7,11 @@ body{
 /*--------------M E N U-------------*/
 .menu-container{
   font-weight: 400;
-  background-color:rgb(213, 213, 164);
+  background-color:rgba(95, 116, 118, 0.632);
   color: white;
+}
+.nav{
+  margin-top: 0.5%;
 }
 .nav :hover{
   text-decoration: overline;
@@ -16,12 +19,12 @@ body{
 }
 /*--------------H O M E-------------*/
 .home-container{
-  background-color:rgb(213, 213, 164);
+  background-color:rgba(95, 116, 118, 0.632);
 }
 .home-title{
-  font-weight: 500;
+  font-weight: 400;
   font-size: 55px;
-  margin-top: 7%;
+  margin-top: 4%;
   letter-spacing: 10px;
   color: white;
 }
@@ -33,14 +36,39 @@ body{
   font-family: 'PT Serif', serif;
   color: white;
 }
-/* home - 2*/
-.home-container-2{
-  background-color: black;
-  height: 70vh;
-}
-.button-pessoas{
+.button-home{
   margin-top: 2%;
+  font-size: 20px;
   border-style: solid;
+  font-style: italic;
   border-color: white;
   color: white;
+}
+/* home - pessoas*/
+.home-container-2{
+  background-image: url('./img/pessoas-1.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 80%;
+  background-size: cover;
+}
+/* home - lugares*/
+.home-container-3{
+  background-image: url('./img/praia-1-lugar.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* home - sobre*/
+.home-container-sobre{
+  background-image: url('./img/daniel-2-sobre.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* home - contato*/
+.home-container-contato{
+  background-image: url('./img/predios-1-contato.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
 }

@@ -1,5 +1,8 @@
 import React from 'react';
-import Home2 from './2-index';
+import Pessoas from './pessoas-index';
+import Lugares from './lugares-index';
+import Sobre from './sobre-index';
+import Contato from './contato-index';
 
 const Home = () => {
   return (
@@ -12,7 +15,10 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        <Home2/>
+        <Pessoas/>
+        <Lugares/>
+        <Sobre/>
+        <Contato/>
     </div>
   )
 }
