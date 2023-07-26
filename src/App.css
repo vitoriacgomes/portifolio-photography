@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=PT+Serif:ital@1&display=swap');
+
+body{
+  font-family: 'Quicksand', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/*--------------M E N U-------------*/
+.menu-container{
+  font-weight: 400;
+  background-color:rgb(213, 213, 164);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.nav :hover{
+  text-decoration: overline;
+  text-decoration-color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*--------------H O M E-------------*/
+.home-container{
+  background-color:rgb(213, 213, 164);
+}
+.home-title{
+  font-weight: 500;
+  font-size: 55px;
+  margin-top: 7%;
+  letter-spacing: 10px;
+  color: white;
+}
+.home-desc{
+  margin-top: 1%;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-style: italic;
+  font-family: 'PT Serif', serif;
+  color: white;
+}
+/* home - 2*/
+.home-container-2{
+  background-color: black;
+  height: 70vh;
+}
+.button-pessoas{
+  margin-top: 2%;
+  border-style: solid;
+  border-color: white;
+  color: white;
 }
