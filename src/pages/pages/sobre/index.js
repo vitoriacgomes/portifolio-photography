@@ -16,7 +16,7 @@ const Sobre = () => {
                     </div>
                 </div>
                 <div class="lg:w-1/3  md:w-1/2">
-                    <img class="img-sobre object-cover object-center rounded" alt="hero" src={fotominha}/>
+                    <img class="lg:px-4 img-sobre object-cover object-center rounded" alt="hero" src={fotominha}/>
                 </div>
             </div>
         </section>

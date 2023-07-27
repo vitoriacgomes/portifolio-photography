@@ -87,10 +87,39 @@ body{
   margin-right: 10%;
   color: white;
 }
+.sobre-dv p{
+  font-size: 20px;
+}
 .title-sobre{
   font-weight: 400;
   font-size: 55px;
   margin-top: 4%;
   letter-spacing: 10px;
   margin-bottom: 10%;
+}
+/*--------------L U G A R E S-------------*/
+.lugares-dv{
+  background-color:rgba(95, 116, 118, 0.632);
+  color: white;
+}
+.lugares-dv p{
+  text-align: justify;
+}
+.title-lug{
+  font-weight: 400;
+  font-size: 50px;
+  margin-top: 4%;
+  letter-spacing: 10px;
+  margin-bottom: 10%;
+}
+@media screen and (min-width: 1050px){
+  .img-lg-2{
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .fotos-lg{
+    width: 100%;
+    height: 120%;
+  }
 }
