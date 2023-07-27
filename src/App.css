@@ -78,24 +78,51 @@ body{
   background-position: bottom;
   background-size: cover;
 }
-/*--------------S O B R E-------------*/
-.sobre{
-  background-color:rgba(95, 116, 118, 0.632);
-}
-.sobre-dv{
-  margin-left: 10%;
-  margin-right: 10%;
+/*--------------P E S S O A S-------------*/
+.pessoas-dv{
+  background-color: rgba(95, 116, 118, 0.632);
   color: white;
 }
-.sobre-dv p{
-  font-size: 20px;
+@media screen and (min-width: 1300px){
+  .pessoas-dv{
+    height: 100vh;
+  }
+  .container-pe{
+    margin-top: -22%;
+  }
 }
-.title-sobre{
+@media screen and (max-width: 700px){
+  .container-pe-2{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -40%;
+    margin-bottom: -20%;
+  }
+}
+@media screen and (max-width: 992px){
+  .container-pe-2{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -30%;
+    margin-bottom: -10%;
+  }
+}
+@media screen and (max-width: 1200px){
+  .container-pe-2{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -20%;
+    margin-bottom: -10%;
+  }
+}
+
+.title-pes{
   font-weight: 400;
-  font-size: 55px;
-  margin-top: 4%;
+  font-size: 53px;
   letter-spacing: 10px;
-  margin-bottom: 10%;
+}
+.containe-pe{
+  margin-bottom: -10%;
 }
 /*--------------L U G A R E S-------------*/
 .lugares-dv{
@@ -121,6 +148,25 @@ body{
   .fotos-lg{
     margin-top: -25%;
   }
+}
+/*--------------S O B R E-------------*/
+.sobre{
+  background-color:rgba(95, 116, 118, 0.632);
+}
+.sobre-dv{
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+}
+.sobre-dv p{
+  font-size: 20px;
+}
+.title-sobre{
+  font-weight: 400;
+  font-size: 55px;
+  margin-top: 4%;
+  letter-spacing: 10px;
+  margin-bottom: 10%;
 }
 /*--------------C O N T A T O-------------*/
 .contato-dv{

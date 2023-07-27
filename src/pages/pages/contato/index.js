@@ -31,7 +31,7 @@ const Contato = () => {
               </div>
               <div class="flex flex-col text-center w-full mb-12">
                     <button class="button-home pessoas flex mx-auto border p-3 px-6">Enviar</button>
-                </div>
+              </div>
               <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                 <a class="">daniel.vilelasantos@gmail.com</a> <br/> <br/>
                 <span class="inline-flex">
