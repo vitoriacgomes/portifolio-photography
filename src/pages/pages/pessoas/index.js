@@ -10,7 +10,7 @@ const Pessoas = () => {
         <div class="containe-pe px-20 py-20 mx-auto  flex flex-wrap">
           <div class="flex flex-col flex-wrap w-full mb-20">
             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-              <h1 class="title-pes sm:text-3xl text-2xl">PESSOAS</h1>
+              <h1 class="title-pes sm:text-3xl text-2xl ">PESSOAS</h1>
             </div>
           </div>
         </div>

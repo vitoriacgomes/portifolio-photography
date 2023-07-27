@@ -98,6 +98,9 @@ body{
     margin-top: -40%;
     margin-bottom: -20%;
   }
+  .title-pes{
+    text-align: center;
+  }
 }
 @media screen and (max-width: 992px){
   .container-pe-2{
