@@ -156,6 +156,11 @@ body{
 .sobre{
   background-color:rgba(95, 116, 118, 0.632);
 }
+@media screen and (min-width: 1300px){
+  .sobre{
+    height: 100vh;
+  }
+}
 .sobre-dv{
   margin-left: 10%;
   margin-right: 10%;
@@ -171,6 +176,32 @@ body{
   letter-spacing: 10px;
   margin-bottom: 10%;
 }
+.tree {
+  margin: 126px auto;
+  padding-inline: 44px;
+  max-width: 414px;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+.links-container {
+  margin: 33px auto 66px auto;
+}
+.a {
+  display: block;
+  width: 100%;
+  padding: 12px 2px;
+  border: 2px solid white;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 16px;
+  color: white;
+}
+.a:hover {
+  background-color: rgba(13, 16, 16, 0.183);
+}
+
 /*--------------C O N T A T O-------------*/
 .contato-dv{
   background-color: rgba(95, 116, 118, 0.632);
