@@ -1,5 +1,11 @@
 # Portifolio Fotografia
 
+
+
+<div align="center">
+<img src="https://github.com/vitoriacgomes/portifolio-photography/assets/81329027/c1a15c88-d344-4ef9-83b1-c38220cbb4be" width="500px" />
+</div>
+
 ## 💻 About
 
 Neste projeto o cliente me solicitou a realização de um portfolio web para seu trabalho de fotógrafo. A ideia era ser um projeto simples, com tres necessidades: exposição de um grupo pequeno de fotos selecionadas, trazer um pouco da historia do cliente e aderir informações para contato. Propus um pagina com um layout do mais criativo que se encaixa-se com o perfil do cliente, mas que deixasse espaço para as fotos serem o foco da atenção.  
