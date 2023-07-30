@@ -1,5 +1,11 @@
 import React from 'react'
 import fotominha from "../../../img/daniel-3-sobre.jpg"
+import d1 from '../../../img/sobre/daniel-1.jpg'
+import d2 from '../../../img/sobre/daniel-3.jpg'
+import d3 from '../../../img/sobre/daniel-6.jpg'
+import d4 from '../../../img/sobre/daniel-7.jpg'
+import d5 from '../../../img/sobre/daniel-8.jpg'
+import d6 from '../../../img/sobre/aniel-9.jpg'
 
 const Sobre = () => {
   return (
