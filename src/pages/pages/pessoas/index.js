@@ -21,9 +21,9 @@ const Pessoas = () => {
           <div class="flex flex-col flex-wrap lg:w-1/5 lg:pl-20 lg:text-left text-center">
             <div class="flex flex-col mb-20 lg:items-start items-center">
               <div class="flex-grow">
-                <p class="pe-p-1 leading-relaxed text-justify">A cada fotografia tenho a oportunidade 
-                de capturar a singularidade de cada um. Todos somos como um poema 
-                que deve ser traduzido em uma imagem. </p>
+                <p class="pe-p-1 leading-relaxed text-justify">Eu imagino o sentimento 
+                de Leonardo da Vinci quando terminou Monalisa, pois é assim que me vejo 
+                a cada foto tirada e editada. </p>
               </div>
             </div>
           </div>
@@ -38,12 +38,10 @@ const Pessoas = () => {
           <div class="xl:w-1/4 md:w-1/2 p-5 w-full rounded-lg">
             <img alt="feature" class="img-pes-3 object-cover object-center h-full w-full" src={p3}/>
             <p className='p-pe-2 leading-relaxed text-justify py-10 px-20 mx-auto flex lg:pl-0 '>
-              A cada fotografia tenho a oportunidade 
-              de capturar a singularidade de cada um. Todos somos como um poema 
-              que deve ser traduzido em uma imagem.
-              A cada fotografia tenho a oportunidade 
-              de capturar a singularidade de cada um. Todos somos como um poema 
-              que deve ser traduzido em uma imagem. </p>
+            Conseguir captar cada olhar, história e essência, torna o ângulo perfeito 
+            apenas ilustrativo, quando a felicidade se faz presente em todo o contexto. 
+            Tirar foto de cada ser humano, é uma vivência única, porque cada qual é 
+            assim a sua trajetória. Saibam, fotografá-los é levá-los  comigo eternizados em png. </p>
           </div>
         </div>
         <div class="container-pe mx-auto flex flex-wrap justify-end">

@@ -15,11 +15,19 @@ const Sobre = () => {
                 <div class="lg:flex-grow md:w-1/2 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
                     <h1 class="title-sobre sm:text-4xl text-3xl mb-8">Daniel Vilela</h1>
                     <div className='desc-sobre'>
-                        <p class="mb-5 leading-relaxed">Olá, Meu nome é Daniel Vilela </p>
-                        <p class="mb-4 leading-relaxed">Eu sou um novo e um criativo fotografo aqui em Recife. Estou me formando em Analise e Desenvolvimento de Sistemas, e a fotografia para
-                        mim é a minha arte, a forma como me expresso.</p>
-                        <p class="mb-8 leading-relaxed">De coração aberto convido todos a dar uma olhadinha no meu trabalho. </p>
-                    </div>
+                        <p class="mb-5 leading-relaxed"> Sou um amador. 
+                        E acredite ou não, existe uma beleza nisso. Ser amador 
+                        é ter a liberdade de criar sem precisar ser cobrado, é ser 
+                        livre para transparecer sua alma, sem ser colocado em um 
+                        lugar que não lhe cabe. Ser amador é viver a vida, entregando
+                        o que você sabe fazer de melhor: seu coração em tudo. </p>
+                        <p class="mb-4 leading-relaxed">Prazer, meu nome é Daniel 
+                        Vilela. Sou católico, estudante de engenharia ambiental e 
+                        análise e desenvolvimento de sistemas. Amante das artes e 
+                        focado em entregar poesia por onde passo. Espero que goste 
+                        do pouco que eu faço aqui. Aproveite! Você foi convidado a 
+                        conhecer meu universo particular, sinta-se a vontade. </p>
+                        </div>
                 </div>
                 <div class="lg:w-1/3  md:w-1/2">
                     <img class="lg:px-4 img-sobre object-cover object-center rounded" alt="hero" src={fotominha}/>
