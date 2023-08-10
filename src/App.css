@@ -17,16 +17,23 @@ body{
   text-decoration: overline;
   text-decoration-color: white;
 }
+@media screen and (max-width: 400px){
+  .nav-me{
+    font-size: 80%;
+  }
+}
 /*--------------H O M E-------------*/
 .home-container{
   background-color:rgba(79, 118, 101, 0.7);
 }
 .home-title{
-  font-weight: 400;
-  font-size: 55px;
+  font-weight: 450;
+  font-size: 60px;
   margin-top: 4%;
   letter-spacing: 10px;
   color: white;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: rgb(79, 118, 101);
 }
 .home-desc{
   margin-top: 1%;
@@ -43,11 +50,12 @@ body{
   font-style: italic;
   border-color: white;
   color: white;
+  background-color: rgba(79, 118, 101, 0.329);
   transition: transform 0.3s ease;
 }
 .button-home:hover{
   transform: scale(1.1);
-  background-color: rgba(13, 16, 16, 0.183);
+  background-color: rgba(79, 118, 101, 0.7);
 }
 /* home - pessoas*/
 .home-container-2{
@@ -55,7 +63,6 @@ body{
   background-repeat: no-repeat;
   background-position: 0 80%;
   background-size: cover;
-  transition: background-size 0.3s ease;
 }
 /* home - lugares*/
 .home-container-3{
@@ -193,6 +200,39 @@ body{
 }
 .containe-pe{
   margin-bottom: -10%;
+}
+@media screen and (max-width: 400px){
+  .title-pes{
+    margin-left: -25%;
+    margin-top: -20%;
+    margin-bottom: -40%;
+  }
+  .img-pes-1{
+    width: 40%;
+    margin-top: -15%;
+    margin-left: -10%;
+  }
+  .img-pes-3{
+    height: 35%;
+  }
+  .img-pes-5{
+    height: ;
+    width: 65%;
+    margin-left: 18%;
+  }
+}
+@media screen and (max-width: 656px){
+  .img-pes-1{
+    margin-top: 1%;
+  }
+  .title-pes{
+    margin-left: 1%;
+  }
+  .img-pes-4{
+    width: 80%;
+    margin-top: -40%;
+    margin-left: 10%;
+  }
 }
 /*--------------L U G A R E S-------------*/
 .lugares-dv{
